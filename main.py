@@ -3,6 +3,7 @@
 print("I like Big Tasty!")
 print("It's really good!")
 """
+
 # from functools import total_ordering
 
 # 2 (00:05:49) variables ❎
@@ -1119,16 +1120,16 @@ print("Thanks for playing!")
 # display_name("Dr.", "Spongebob", "Harold", "Squarepants", "III")
 
 # def print_address(**kwargs):
-    # print(type(kwargs)) # <class 'dict'>
+# print(type(kwargs)) # <class 'dict'>
 
-    # for value in kwargs.values():
-    #     print(value)
+# for value in kwargs.values():
+#     print(value)
 
-    # for key in kwargs.keys():
-    #     print(key)
+# for key in kwargs.keys():
+#     print(key)
 
-    # for key, value in kwargs.items():
-    #     print(f"{key}: {value}")
+# for key, value in kwargs.items():
+#     print(f"{key}: {value}")
 
 # print_address(house = "17",
 #               street = "Beregova St.",
@@ -1450,8 +1451,8 @@ print(e) # built-in scope
 #         return 0
 #     else:
 #         return amount
-# def main():    
-#     balance = 0
+# def main():     # при запуску цього файлу в іншому файлі - нам не потрібно відображати цю частину коду,
+#     balance = 0 # тому ми використовуємо "if __name__ == '__main__'", тобто ця функція буде виконуватись лише при запуску напряму
 #     is_running = True
 
 #     while is_running:
@@ -1481,14 +1482,12 @@ print(e) # built-in scope
 #     print("********************")
 #     print("Thank you! Have a nice day!")
 
-# if __name__ == '__main__':
+# if __name__ == '__main__': # дослівне пояснення - "Якщо ми запускаємо файл напряму: виконай цей код"
 #     main()
 
 # 43 (05:38:34) ⭐ slot machine 🎰
 
-print(
-    "Hi!"
-)
+print("asdas")
 
 # 44 (05:58:45) ⭐ encryption program 🔐
 # 45 (06:07:26) ⭐ hangman game 🕺
