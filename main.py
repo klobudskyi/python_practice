@@ -1697,6 +1697,46 @@ print(e) # built-in scope
 #     main()
 
 # 46 (06:32:32) python object oriented programming 🚗
+
+# object = A "bundle" of related attributes (variables) and methods (functions)
+#          Ex. phone, cup, book
+#          You need a "class" to create many objects
+
+# class = (blueprint) used to design the structure and layout of an object
+
+# from car import Car
+
+# car1 = Car("CLA 45 S", 2020, "Designo Mountain Grey Magno", False)
+# car2 = Car("Octavia", 2021, "White", True)
+# car3 = Car("Elantra", 2016, "Grey", True)
+
+# print(car1.model)
+# print(car1.year)
+# print(car1.color)
+# print(car1.for_sale)
+
+# print(car2.model)
+# print(car2.year)
+# print(car2.color)
+# print(car2.for_sale)
+
+# print(car3.model)
+# print(car3.year)
+# print(car3.color)
+# print(car3.for_sale)
+
+# car1.drive()
+# car2.drive()
+# car3.drive()
+
+# car1.stop()
+# car2.stop()
+# car3.stop()
+
+# car1.describe()
+# car2.describe()
+# car3.describe()
+
 # 47 (06:44:50) class variables 🎓
 # 48 (06:53:06) inheritance 👨‍👦‍👦
 # 49 (07:00:02) multiple inheritance 🐟
