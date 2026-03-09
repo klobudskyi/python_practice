@@ -1777,6 +1777,56 @@ print(e) # built-in scope
 # print(student4.name)
 
 # 48 (06:53:06) inheritance 👨‍👦‍👦
+
+# Inheritance = Allows a class to inherit attributes and methods from another class
+#               Helps with code reusabiility and extensibility
+#               class Child(Parent) AKA (Sub(Super))
+
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+#         self.is_alive = True
+
+#     def eat(self):
+#         print(f"{self.name} is eating")
+
+#     def sleep(self):
+#         print(f"{self.name} is asleep")
+
+# class Dog(Animal):
+#     def speak(self):
+#         print("Woof!")
+
+# class Cat(Animal):
+#     def speak(self):
+#         print("Meow!")
+
+# class Mouse(Animal):
+#     def speak(self):
+#         print("Squeek!")
+
+# dog = Dog("Spike")
+# cat = Cat("Tom")
+# mouse = Mouse("Jerry")
+
+# print(dog.name)
+# print(dog.is_alive)
+# dog.eat()
+# dog.sleep()
+# dog.speak()
+
+# print(cat.name)
+# print(cat.is_alive)
+# cat.eat()
+# cat.sleep()
+# cat.speak()
+
+# print(mouse.name)
+# print(mouse.is_alive)
+# mouse.eat()
+# mouse.sleep()
+# mouse.speak()
+
 # 49 (07:00:02) multiple inheritance 🐟
 # 50 (07:08:04) super() 🔴
 # 51 (07:21:10) polymorphism 🎭
