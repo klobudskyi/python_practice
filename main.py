@@ -2223,6 +2223,33 @@ print(e) # built-in scope
 # print(rectangle.height)
 
 # 57 (08:07:33) decorators 🎊
+
+# Decorator = A function that extends the behavior of another function
+#             w/o modifying the base function
+#             Pass the base function as an argument to the decorator
+
+#             @add_sprinkles
+#             get_ice_cream("vanilla")
+
+# def add_sprinkles(function): # basic formula to create a decorator
+#     def wrapper(*args, **kwargs):
+#         print("*adding sprinkles 🎊*")
+#         function(*args, **kwargs)
+#     return wrapper
+
+# def add_fudge(function):
+#     def wrapper(*args, **kwargs):
+#         print("*adding fudge 🍫*")
+#         function(*args, **kwargs)
+#     return wrapper
+
+# @add_sprinkles
+# @add_fudge
+# def get_ice_cream(flavor):
+#     print(f"Here is your {flavor} ice cream 🍦")
+
+# get_ice_cream("vanilla")
+
 # 58 (08:14:57) exception handling 🚦
 # 59 (08:20:46) file detection 🕵️‍♂️
 # 60 (08:27:47) writing files ✍
