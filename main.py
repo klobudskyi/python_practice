@@ -1997,6 +1997,35 @@ print(e) # built-in scope
 #     print(f"{shape.area()} cm²")
 
 # 52 (07:29:15) duck typing 🦆
+
+# "Duck typing" = Another way to achieve polymorphism besides Inheritance
+#                 Object must have the minimum necessary attributes/methods
+#                 "If it looks like a duck and quaks like a duck, it must be a duck."
+
+# class Animal():
+#     alive = True
+
+# class Dog(Animal):
+#     def speak(self):
+#         print("Woof!")
+
+# class Cat(Animal):
+#     def speak(self):
+#         print("Meow!")
+
+# class Car:
+
+#     alive = False
+
+#     def speak(self):
+#         print("Honk!")
+
+# animals = [Dog(), Cat(), Car()]
+
+# for animal in animals:
+#     animal.speak()
+#     print(animal.alive)
+
 # 53 (07:33:34) static methods ⚡
 # 54 (07:39:31) class methods 🏫
 # 55 (07:46:16) magic methods 🌟
