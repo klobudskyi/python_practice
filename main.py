@@ -2027,6 +2027,46 @@ print(e) # built-in scope
 #     print(animal.alive)
 
 # 53 (07:33:34) static methods ⚡
+
+# Static methods = A method that belong to a class rather than any object from that class (instance)
+#                  Usually used for general utility functions
+
+# Instance methods = Best for operations on instances of the class (objects):
+# def get_info(self):
+#     return f"{self.name} = {self.position}"
+
+# Static methods = Best for utility functions that do not need access to class data
+# @staticmethod
+# def km_to_miles(kilometers):
+#     return kilometers * 0.621371
+
+# class Employee:
+
+#     def __init__(self, name, position):
+#         self.name = name
+#         self.position = position
+
+#     def get_info(self):
+#         return f"{self.name} - {self.position}"
+
+#     @staticmethod
+#     def is_valid_position(position):
+#         valid_positions = ["Manager", "Cashier", "Cook", "Janitor"]
+#         return position in valid_positions
+    
+# employee1 = Employee("Eugene", "Manager")
+# employee2 = Employee("Squidward", "Cashier")
+# employee3 = Employee("Spongebob", "Cook")
+
+# # with a static method - you only need to access that class
+# print(Employee.is_valid_position("Cook"))
+# print(Employee.is_valid_position("Rocket Scientist"))
+
+# # for an instance method - you access an object and then call the instance method
+# print(employee1.get_info())
+# print(employee2.get_info())
+# print(employee3.get_info())
+
 # 54 (07:39:31) class methods 🏫
 # 55 (07:46:16) magic methods 🌟
 # 56 (07:59:51) @property ⚙️
