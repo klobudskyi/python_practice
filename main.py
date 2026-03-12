@@ -2251,6 +2251,23 @@ print(e) # built-in scope
 # get_ice_cream("vanilla")
 
 # 58 (08:14:57) exception handling 🚦
+
+# exception = An event that interrupts the flow of a program
+#             (ZeroDivisionError, TypeError, ValueError)
+#             1. try, 2. except, 3. finally
+
+# try:
+#     number = int(input("Enter a number: "))
+#     print(1 / number)
+# except ZeroDivisionError:
+#     print("You can't divide by zero!")
+# except ValueError:
+#     print("Enter only numbers!")
+# except Exception:
+#     print("Something went wrong!")
+# finally: # always executes regardless if there is exception or not
+#     print("Do some cleanup here!")
+
 # 59 (08:20:46) file detection 🕵️‍♂️
 # 60 (08:27:47) writing files ✍
 # 61 (08:41:33) reading files 🔍
