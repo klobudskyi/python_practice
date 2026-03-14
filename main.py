@@ -2270,14 +2270,20 @@ print(e) # built-in scope
 
 # 59 (08:20:46) file detection 🕵️‍♂️
 
-import os
+# import os
 
-file_path = "test.txt"
+# file_path = "D:\Files\Coding\python_practice\\test.txt"
 
-if os.path.exists(file_path):
-    print(f"The location '{file_path}' exists")
-else:
-    print("That location doesn't exist")
+# if os.path.exists(file_path):
+#     print(f"The location '{file_path}' exists")
+
+#     if os.path.isfile(file_path):
+#         print("That is a file")
+#     elif os.path.isdir(file_path):
+#         print("That is a directory")
+
+# else:
+#     print("That location doesn't exist")
 
 # 60 (08:27:47) writing files ✍
 # 61 (08:41:33) reading files 🔍
