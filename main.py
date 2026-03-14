@@ -2269,6 +2269,16 @@ print(e) # built-in scope
 #     print("Do some cleanup here!")
 
 # 59 (08:20:46) file detection 🕵️‍♂️
+
+import os
+
+file_path = "test.txt"
+
+if os.path.exists(file_path):
+    print(f"The location '{file_path}' exists")
+else:
+    print("That location doesn't exist")
+
 # 60 (08:27:47) writing files ✍
 # 61 (08:41:33) reading files 🔍
 # 62 (08:48:29) dates & times 📅
