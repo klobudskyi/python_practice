@@ -2286,6 +2286,50 @@ print(e) # built-in scope
 #     print("That location doesn't exist")
 
 # 60 (08:27:47) writing files ✍
+
+# import json
+# import csv
+
+# txt_data = "I like Big Tasty!" # string
+
+# employees = ["Eugene", "Squidward", "Spongebob", "Patrick"] # list
+
+# employee = { # json
+
+#     "name": "Spongebob",
+#     "age": 30,
+#     "job": "cook"
+
+# }
+
+# employees = [["Name", "Age", "Job"],
+#              ["Spongebob", 30, "Cook"],
+#              ["Patrick", 37, "Unemployed"],
+#              ["Sandy", 27, "Scientist"]]
+
+# file_path = "python_practice\\test.txt" # can be either relative or absolute # txt file
+# file_path = "python_practice\\test.json" # can be either relative or absolute # json file
+# file_path = "python_practice\\test.csv" # can be either relative or absolute # csv file
+
+# try:
+#     with open(file=file_path, mode="w", newline="") as file: # 2 parameter: "w" - write, "x" - write if file doesn't exist, "a" - append, to append file, "r" - read
+        
+        # file.write("\n" + txt_data) # string
+        # for employee in employees: # list
+        #     file.write(employee + "\n")
+        # print(f"txt file '{file_path}' was created")
+
+        # json.dump(employee, file, indent=4) # json
+        # print(f"json file '{file_path}' was created")
+
+        # writer = csv.writer(file)
+        # for row in employees:
+        #     writer.writerow(row)
+        # print(f"csv file '{file_path}' was created")
+
+# except FileExistsError:
+#     print("That file already exists!")
+
 # 61 (08:41:33) reading files 🔍
 # 62 (08:48:29) dates & times 📅
 # 63 (08:54:46) ⭐ alarm clock ⏰
