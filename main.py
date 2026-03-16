@@ -2331,6 +2331,32 @@ print(e) # built-in scope
 #     print("That file already exists!")
 
 # 61 (08:41:33) reading files 🔍
+
+# import json
+# import csv
+
+# file_path = "python_practice\\test.txt"
+# file_path = "python_practice\\test.json"
+# file_path = "python_practice\\test.csv"
+
+# try:
+#     with open(file=file_path, mode="r" ) as file: # "r" - read
+        
+#         content = file.read()
+#         print(content)
+
+#         content = json.load(file)
+#         print(content["name"])
+
+#         content = csv.reader(file)
+#         for line in content:
+#             print(line[2])
+
+# except FileNotFoundError:
+#     print("That file was not found")
+# except PermissionError:
+#     print("You do not have permission to read that file")
+
 # 62 (08:48:29) dates & times 📅
 # 63 (08:54:46) ⭐ alarm clock ⏰
 # 64 (09:05:03) multithreading 🧵
