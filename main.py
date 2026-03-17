@@ -2358,6 +2358,25 @@ print(e) # built-in scope
 #     print("You do not have permission to read that file")
 
 # 62 (08:48:29) dates & times 📅
+
+# import datetime
+
+# date = datetime.date(2026, 1, 1)
+# today = datetime.date.today()
+
+# time = datetime.time(12, 00, 0)
+# now = datetime.datetime.now()
+
+# now = now.strftime("%d/%m/%Y - %H:%M:%S")
+
+# current_datetime = datetime.datetime.now()
+# target_datetime = datetime.datetime(2027, 2, 22, 0, 0, 0)
+
+# if target_datetime < current_datetime:
+#     print("Target date has PASSED")
+# else:
+#     print("Target date has NOT PASSED")
+
 # 63 (08:54:46) ⭐ alarm clock ⏰
 # 64 (09:05:03) multithreading 🧵
 # 65 (09:13:45) request API data ↩️
