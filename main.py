@@ -2537,6 +2537,38 @@ print(e) # built-in scope
 #     main()
 
 # 68 (09:40:23) PyQt5 images 📷
+
+# import sys
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
+# from PyQt5.QtGui import QPixmap
+
+# class MainWindow(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.setGeometry(700, 300, 500, 500)
+
+#         label = QLabel(self)
+#         label.setGeometry(0, 0, 250, 250)
+
+#         pixmap = QPixmap("prison_mike.jpg")
+#         label.setPixmap(pixmap)
+
+#         label.setScaledContents(True)
+
+#         label.setGeometry((self.width() - label.width()) // 2,
+#                           (self.height() - label.height()) // 2, 
+#                           label.width(), 
+#                           label.height())
+
+# def main():
+#     app = QApplication(sys.argv)
+#     window = MainWindow()
+#     window.show()
+#     sys.exit(app.exec_())
+
+# if __name__ == "__main__":
+#     main()
+
 # 69 (09:46:28) PyQt5 layout managers 🧲
 # 70 (09:53:07) PyQt5 buttons 🛎️
 # 71 (10:00:12) PyQt5 checkboxes ✅
