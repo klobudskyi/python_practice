@@ -2472,7 +2472,49 @@ print(e) # built-in scope
 #     print(f"Weight: {pokemon_info["weight"]}")
 
 # 66 (09:22:19) PyQt5 GUI intro 🖥️
+
+# import sys
+# from PyQt5.QtWidgets import QApplication, QMainWindow
+# from PyQt5.QtGui import QIcon
+
+# class MainWindow(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.setWindowTitle("My first GUI")
+#         self.setGeometry(700, 300, 500, 500) # x, y, width, height
+#         self.setWindowIcon(QIcon("python_practice\\prison_mike.jpg"))
+
+# def main():
+#     app = QApplication(sys.argv)
+#     window = MainWindow()
+#     window.show()
+#     sys.exit(app.exec_())
+
+# if __name__ == "__main__":
+#     main()
+
 # 67 (09:31:27) PyQt5 labels 🏷️
+
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtGui import QIcon
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("My first GUI")
+        self.setGeometry(700, 300, 500, 500) # x, y, width, height
+        self.setWindowIcon(QIcon("python_practice\\prison_mike.jpg"))
+
+def main():
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()
+
 # 68 (09:40:23) PyQt5 images 📷
 # 69 (09:46:28) PyQt5 layout managers 🧲
 # 70 (09:53:07) PyQt5 buttons 🛎️
