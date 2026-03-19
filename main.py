@@ -2447,6 +2447,30 @@ print(e) # built-in scope
 # print("All chores are complete")
 
 # 65 (09:13:45) request API data ↩️
+
+# import requests
+
+# base_url = "https://pokeapi.co/api/v2/"
+
+# def get_pokemon_info(name):
+#     url = f"{base_url}/pokemon/{name}"
+#     response = requests.get(url)
+    
+#     if response.status_code == 200:
+#         pokemon_data = response.json()
+#         return pokemon_data
+#     else:
+#         print(f"Failed to retrieve data {response.status_code}")
+
+# pokemon_name = "pikachu"
+# pokemon_info = get_pokemon_info(pokemon_name)
+
+# if pokemon_info:
+#     print(f"Name: {pokemon_info["name"].capitalize()}")
+#     print(f"ID: {pokemon_info["id"]}")
+#     print(f"Height: {pokemon_info["height"]}")
+#     print(f"Weight: {pokemon_info["weight"]}")
+
 # 66 (09:22:19) PyQt5 GUI intro 🖥️
 # 67 (09:31:27) PyQt5 labels 🏷️
 # 68 (09:40:23) PyQt5 images 📷
