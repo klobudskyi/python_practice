@@ -2570,6 +2570,25 @@ print(e) # built-in scope
 #     main()
 
 # 69 (09:46:28) PyQt5 layout managers 🧲
+
+import sys
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QLabel,
+                             QWidget, QVBoxLayout, QHBoxLayout, QGridLayout)
+
+class MainWidnow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setGeometry(700, 300, 500, 500)
+
+def main():
+    app = QApplication(sys.argv)
+    window = MainWidnow()
+    window.show()
+    sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()
+
 # 70 (09:53:07) PyQt5 buttons 🛎️
 # 71 (10:00:12) PyQt5 checkboxes ✅
 # 72 (10:06:42) PyQt5 radio buttons 🔘
