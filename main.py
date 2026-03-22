@@ -2637,6 +2637,34 @@ print(e) # built-in scope
 #     main()
 
 # 70 (09:53:07) PyQt5 buttons 🛎️
+
+# import sys
+# from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QLabel
+
+# class MainWindow(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.setGeometry(700, 300, 500, 500)
+#         self.button = QPushButton("Click me!", self)
+#         self.label = QLabel("Hello!", self)
+#         self.initUI()
+
+#     def initUI(self):
+#         self.button.setGeometry(150, 200, 250, 100)
+#         self.button.setStyleSheet("font-size: 30px;")
+#         self.button.clicked.connect(self.on_click)
+
+#         self.label.setGeometry(150, 300, 250, 100)
+#         self.label.setStyleSheet("font-size: 50px;")
+#     def on_click(self):
+#         self.label.setText("Goodbye!")
+
+# if __name__ == '__main__':
+#     app = QApplication(sys.argv)
+#     window = MainWindow()
+#     window.show()
+#     sys.exit(app.exec_())
+
 # 71 (10:00:12) PyQt5 checkboxes ✅
 # 72 (10:06:42) PyQt5 radio buttons 🔘
 # 73 (10:15:55) PyQt5 line edits 💬
