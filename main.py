@@ -1903,7 +1903,7 @@ print(e) # built-in scope
 #     def describe(self): # method overriding
 #         super().describe() # extending the functionality of the describe method
 #         print(f"It is a circle with an area of {math.pi * self.radius ** 2:.2f} cm^2")
-        
+
 
 # class Square(Shape):
 #     def __init__(self, color, is_filled, width):
@@ -1959,7 +1959,7 @@ print(e) # built-in scope
 # from math import pi
 
 # class Shape:
-    
+
 #     @abstractmethod
 #     def area(self):
 #         pass
@@ -1974,7 +1974,7 @@ print(e) # built-in scope
 # class Square(Shape):
 #     def __init__(self, side):
 #         self.side = side
-    
+
 #     def area(self):
 #         return int(round(self.side ** 2, 0))
 
@@ -1982,7 +1982,7 @@ print(e) # built-in scope
 #     def __init__(self, base, height):
 #         self.base = base
 #         self.height = height
-    
+
 #     def area(self):
 #         return int(round(self.base * self.height * 0.5, 0))
 
@@ -2053,7 +2053,7 @@ print(e) # built-in scope
 #     def is_valid_position(position):
 #         valid_positions = ["Manager", "Cashier", "Cook", "Janitor"]
 #         return position in valid_positions
-    
+
 # employee1 = Employee("Eugene", "Manager")
 # employee2 = Employee("Squidward", "Cashier")
 # employee3 = Employee("Spongebob", "Cook")
@@ -2086,23 +2086,23 @@ print(e) # built-in scope
 #     # instance method
 #     def get_info(self):
 #         return f"{self.name} - {self.gpa}"
-    
+
 #     @classmethod
 #     def get_count(cls):
 #         return f"Total number of students: {cls.count}"
-    
+
 #     @classmethod
 #     def get_average_gpa(cls):
 #         if cls.count == 0:
 #             return 0
 #         else:
 #             return f"Average GPA: {cls.total_gpa / cls.count:.2f}"
-    
-    
+
+
 # student1 = Student("Spongebob", 3.2)
 # student2 = Student("Patrick", 2.0)
 # student3 = Student("Sandy", 4.0)
-    
+
 # print(Student.get_count())
 # print(Student.get_average_gpa())
 
@@ -2121,22 +2121,22 @@ print(e) # built-in scope
 
 #     def __str__(self): # instead of returning a memory address, we can return a string representation of the object, when we print it directly to the console
 #         return f"'{self.title}' by {self.author}"
-    
+
 #     def __eq__(self, other):
 #         return self.title == other.title and self.author == other.author
 
 #     def __lt__(self, other):
 #         return self.num_pages < other.num_pages
-    
+
 #     def __gt__(self, other):
 #         return self.num_pages > other.num_pages
-    
+
 #     def __add__(self, other):
 #         return f"{self.num_pages + other.num_pages} pages"
-    
+
 #     def __contains__(self, keyword):
 #         return keyword in self.title or keyword in self.author
-    
+
 #     def __getitem__(self, key):
 #         if key == "title":
 #             return self.title
@@ -2174,7 +2174,7 @@ print(e) # built-in scope
 #             Gives you getter, setter and deleter method
 
 # class Rectangle:
-    
+
 #     def __init__(self, width, height):
 #         self._width = width
 #         self._height = height
@@ -2313,19 +2313,19 @@ print(e) # built-in scope
 
 # try:
 #     with open(file=file_path, mode="w", newline="") as file: # 2 parameter: "w" - write, "x" - write if file doesn't exist, "a" - append, to append file, "r" - read
-        
-        # file.write("\n" + txt_data) # string
-        # for employee in employees: # list
-        #     file.write(employee + "\n")
-        # print(f"txt file '{file_path}' was created")
 
-        # json.dump(employee, file, indent=4) # json
-        # print(f"json file '{file_path}' was created")
+# file.write("\n" + txt_data) # string
+# for employee in employees: # list
+#     file.write(employee + "\n")
+# print(f"txt file '{file_path}' was created")
 
-        # writer = csv.writer(file)
-        # for row in employees:
-        #     writer.writerow(row)
-        # print(f"csv file '{file_path}' was created")
+# json.dump(employee, file, indent=4) # json
+# print(f"json file '{file_path}' was created")
+
+# writer = csv.writer(file)
+# for row in employees:
+#     writer.writerow(row)
+# print(f"csv file '{file_path}' was created")
 
 # except FileExistsError:
 #     print("That file already exists!")
@@ -2341,7 +2341,7 @@ print(e) # built-in scope
 
 # try:
 #     with open(file=file_path, mode="r" ) as file: # "r" - read
-        
+
 #         content = file.read()
 #         print(content)
 
@@ -2401,7 +2401,7 @@ print(e) # built-in scope
 
 #             while pygame.mixer.music.get_busy():
 #                 time.sleep(1)
-            
+
 #             is_running = False
 
 #         time.sleep(1)
@@ -2455,7 +2455,7 @@ print(e) # built-in scope
 # def get_pokemon_info(name):
 #     url = f"{base_url}/pokemon/{name}"
 #     response = requests.get(url)
-    
+
 #     if response.status_code == 200:
 #         pokemon_data = response.json()
 #         return pokemon_data
@@ -2513,19 +2513,19 @@ print(e) # built-in scope
 #                             "font-weight: bold;"
 #                             "font-style: italic;"
 #                             "text-decoration: underline;")
-        
-        # label.setAlignment(Qt.AlignTop) # vertically top
-        # label.setAlignment(Qt.AlignBottom) # vertically bottom
-        # label.setAlignment(Qt.AlignVCenter) # vertically center
 
-        # label.setAlignment(Qt.AlignRight) # horizontally right
-        # label.setAlignment(Qt.AlignHCenter) # horizontally center
-        # label.setAlignment(Qt.AlignLeft) # horizontally left
+# label.setAlignment(Qt.AlignTop) # vertically top
+# label.setAlignment(Qt.AlignBottom) # vertically bottom
+# label.setAlignment(Qt.AlignVCenter) # vertically center
 
-        # label.setAlignment(Qt.AlignHCenter | Qt.AlignTop) # center & top
-        # label.setAlignment(Qt.AlignHCenter | Qt.AlignBottom) # center & bottom
-        # label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter) # center & center
-        # label.setAlignment(Qt.AlignCenter) # center & center
+# label.setAlignment(Qt.AlignRight) # horizontally right
+# label.setAlignment(Qt.AlignHCenter) # horizontally center
+# label.setAlignment(Qt.AlignLeft) # horizontally left
+
+# label.setAlignment(Qt.AlignHCenter | Qt.AlignTop) # center & top
+# label.setAlignment(Qt.AlignHCenter | Qt.AlignBottom) # center & bottom
+# label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter) # center & center
+# label.setAlignment(Qt.AlignCenter) # center & center
 
 # def main():
 #     app = QApplication(sys.argv)
@@ -2556,8 +2556,8 @@ print(e) # built-in scope
 #         label.setScaledContents(True)
 
 #         label.setGeometry((self.width() - label.width()) // 2,
-#                           (self.height() - label.height()) // 2, 
-#                           label.width(), 
+#                           (self.height() - label.height()) // 2,
+#                           label.width(),
 #                           label.height())
 
 # def main():
@@ -2597,35 +2597,35 @@ print(e) # built-in scope
 #         label4.setStyleSheet("background-color: blue;")
 #         label5.setStyleSheet("background-color: purple;")
 
-        # vbox = QVBoxLayout()
+# vbox = QVBoxLayout()
 
-        # vbox.addWidget(label1)
-        # vbox.addWidget(label2)
-        # vbox.addWidget(label3)
-        # vbox.addWidget(label4)
-        # vbox.addWidget(label5)
+# vbox.addWidget(label1)
+# vbox.addWidget(label2)
+# vbox.addWidget(label3)
+# vbox.addWidget(label4)
+# vbox.addWidget(label5)
 
-        # central_widget.setLayout(vbox)
+# central_widget.setLayout(vbox)
 
-        # hbox = QHBoxLayout()
+# hbox = QHBoxLayout()
 
-        # hbox.addWidget(label1)
-        # hbox.addWidget(label2)
-        # hbox.addWidget(label3)
-        # hbox.addWidget(label4)
-        # hbox.addWidget(label5)
+# hbox.addWidget(label1)
+# hbox.addWidget(label2)
+# hbox.addWidget(label3)
+# hbox.addWidget(label4)
+# hbox.addWidget(label5)
 
-        # central_widget.setLayout(hbox)
+# central_widget.setLayout(hbox)
 
-        # grid = QGridLayout()
+# grid = QGridLayout()
 
-        # grid.addWidget(label1, 0, 0)
-        # grid.addWidget(label2, 0, 1)
-        # grid.addWidget(label3, 1, 0)
-        # grid.addWidget(label4, 1, 1)
-        # grid.addWidget(label5, 2, 0)
+# grid.addWidget(label1, 0, 0)
+# grid.addWidget(label2, 0, 1)
+# grid.addWidget(label3, 1, 0)
+# grid.addWidget(label4, 1, 1)
+# grid.addWidget(label5, 2, 0)
 
-        # central_widget.setLayout(grid)
+# central_widget.setLayout(grid)
 
 # def main():
 #     app = QApplication(sys.argv)
@@ -2699,6 +2699,60 @@ print(e) # built-in scope
 #     sys.exit(app.exec_())
 
 # 72 (10:06:42) PyQt5 radio buttons 🔘
+
+# import sys
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QRadioButton, QButtonGroup
+
+
+# class MainWindow(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.setGeometry(700, 300, 500, 500)
+#         self.radio1 = QRadioButton("Visa", self)
+#         self.radio2 = QRadioButton("Mastercard", self)
+#         self.radio3 = QRadioButton("Gift Card", self)
+#         self.radio4 = QRadioButton("In-Store", self)
+#         self.radio5 = QRadioButton("Online", self)
+#         self.button_group1 = QButtonGroup(self)
+#         self.button_group2 = QButtonGroup(self)
+#         self.initUI()
+
+#     def initUI(self):
+#         self.radio1.setGeometry(0, 0, 300, 50)
+#         self.radio2.setGeometry(0, 50, 300, 50)
+#         self.radio3.setGeometry(0, 100, 300, 50)
+#         self.radio4.setGeometry(0, 150, 300, 50)
+#         self.radio5.setGeometry(0, 200, 300, 50)
+
+#         self.setStyleSheet("QRadioButton{"
+#                            "font-size: 40px;"
+#                            "font-family: Arial;"
+#                            "padding: 10px;"
+#                            "}")
+
+#         self.button_group1.addButton(self.radio1)
+#         self.button_group1.addButton(self.radio2)
+#         self.button_group1.addButton(self.radio3)
+#         self.button_group2.addButton(self.radio4)
+#         self.button_group2.addButton(self.radio5)
+
+#         self.radio1.toggled.connect(self.radio_button_changed)
+#         self.radio2.toggled.connect(self.radio_button_changed)
+#         self.radio3.toggled.connect(self.radio_button_changed)
+#         self.radio4.toggled.connect(self.radio_button_changed)
+#         self.radio5.toggled.connect(self.radio_button_changed)
+
+#     def radio_button_changed(self):
+#         radio_button = self.sender()
+#         if radio_button.isChecked():
+#             print(f"{radio_button.text()} is selected")
+
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     window = MainWindow()
+#     window.show()
+#     sys.exit(app.exec_())
+
 # 73 (10:15:55) PyQt5 line edits 💬
 # 74 (10:21:55) PyQt5 CSS styles 🎨
 # 75 (10:32:48) ⭐ digital clock program 🕒
