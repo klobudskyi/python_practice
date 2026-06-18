@@ -2754,6 +2754,9 @@ print(e) # built-in scope
 #     sys.exit(app.exec_())
 
 # 73 (10:15:55) PyQt5 line edits 💬
+
+
+
 # 74 (10:21:55) PyQt5 CSS styles 🎨
 # 75 (10:32:48) ⭐ digital clock program 🕒
 # 76 (10:48:38) ⭐ stopwatch program ⏱
