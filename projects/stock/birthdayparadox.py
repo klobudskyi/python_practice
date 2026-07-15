@@ -48,6 +48,7 @@ simulations) to explore this concept.
 
 # Set up a tuple of month names in order:
 MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+
           'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 while True:  # Keep asking until the user enters a valid amount.
