@@ -1,3 +1,5 @@
+# https://youtu.be/ix9cRaBkVe0?si=q2G4JGMpxhc1SWCg
+
 # 1 (00:00:00) python tutorial for beginners 🐍
 """
 print("I like Big Tasty!")
